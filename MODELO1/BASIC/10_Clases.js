@@ -74,7 +74,7 @@ const punto = new Punto (11,4);
 console.log(punto.distanciaOrigen(p,punto));
 //construir clase persona y estudiante,extender estudiante con persona
 class Personaa{
-    constructor(nombre){
+    constructor(nombre,apellido){
         this.nombre = nombre;
         this.apellido = apellido;
     }
